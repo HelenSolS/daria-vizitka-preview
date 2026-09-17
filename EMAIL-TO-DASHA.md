@@ -1,67 +1,55 @@
-# Email to Dasha — portfolio preview
+# Email to Dasha — READY TO SEND
 
 **To:** daria.soldatova@uni-weimar.de  
 **Cc:** daria.soldatova.v@gmail.com  
-**Subject:** Your portfolio preview — 3 versions to review (links + GitHub access)
+**Subject:** Your portfolio preview — 3 versions + GitHub access
 
 ---
 
 Hi Daria,
 
-We prepared three English portfolio versions for you to compare. Please open all three and tell us which direction you prefer — or what you’d like to mix.
+We made three English portfolio versions for you. Please open all three on your phone and laptop, click the journey markers, and tell us which direction you prefer (or what to mix).
 
-## Live preview (Vercel)
+## Live preview
 
-- **Choose version:** {{PREVIEW_ROOT}}
-- **v1 — minimal:** {{PREVIEW_ROOT}}/v1/
-- **v2 — sea:** {{PREVIEW_ROOT}}/v2/
-- **v3 — illustrated:** {{PREVIEW_ROOT}}/v3/
+- **Choose version:** https://helensols.github.io/daria-vizitka-preview/
+- **v1 — minimal:** https://helensols.github.io/daria-vizitka-preview/v1/
+- **v2 — sea:** https://helensols.github.io/daria-vizitka-preview/v2/
+- **v3 — illustrated:** https://helensols.github.io/daria-vizitka-preview/v3/
 
-**What to try:** scroll the page, click the journey/path markers, check on your phone.
+## GitHub (edit the site yourself)
 
-## GitHub repository
+- **Repository:** https://github.com/HelenSolS/daria-vizitka-preview
+- **Your access:** invitation sent to **daria.soldatova.v@gmail.com** — please accept via email or https://github.com/notifications (Collaborator invite).
 
-- **Repo:** {{GITHUB_REPO_URL}}
-- **Access:** we invited **daria.soldatova.v@gmail.com** as collaborator — accept the invite in your email or at https://github.com/notifications
+After accepting, you can edit files in the browser or clone the repo.
 
-After you accept, you can edit files directly in GitHub or clone the repo locally.
+## How to add your Behance work
 
-## How to add your own work (Behance cases)
+1. Open the repo → pick your favourite folder (`v2/` or `v3/`).
+2. Open `index.html` → section **Work** (03 · Work).
+3. For each card change:
+   - project title (`<h3>`)
+   - one-line outcome (`<p>`)
+   - link (`href="https://www.behance.net/gallery/…"`)
+4. Optional cover image: upload PNG to `v3/assets/work/` and add `<img src="assets/work/my-case.png" alt="…">` in the card.
+5. Save commit on GitHub — the live site updates in ~1 minute.
 
-1. Open the repo on GitHub (link above).
-2. Go to the version you like best, e.g. `v3/index.html`.
-3. Find the **Work** section (section `03 · Work`).
-4. For each project card, replace:
-   - **Title** (`<h3>…</h3>`)
-   - **One-line description** (`<p>…</p>`)
-   - **Behance link** (`href="https://www.behance.net/…"`)
-5. Optional: add a cover image per project — put PNG/JPG in `v3/assets/work/` and add `<img src="assets/work/your-case.png">` inside the card.
-6. Commit changes — Vercel redeploys automatically if the repo is connected.
+## Other files you can replace
 
-**Do not edit:** v1 folder if we freeze it as reference — work in v2 or v3.
-
-## Files you can update yourself
-
-| What | Where |
-|------|--------|
-| CV download | `v3/assets/cv.pdf` (replace file) |
+| What | Path |
+|------|------|
+| CV | `v3/assets/cv.pdf` |
 | Photos | `v3/assets/photo/` |
 | Contact email | Contact section in `index.html` |
-| Behance / LinkedIn | Contact + Work links in `index.html` |
-| Journey text | `data-body` on each marker in Journey section |
+| Journey story text | `data-body="…"` on each marker in Journey section |
 
-## What we need from you
+## Please reply with
 
-1. Which version is closest? (v1 / v2 / v3 / mix)
-2. 3 Behance project links with one sentence each
-3. Final contact links (LinkedIn, Telegram?)
-4. OK to use the photos we have?
-
-Reply when you’ve looked — no rush.
+1. Favourite version: v1 / v2 / v3 / mix
+2. Three Behance links + one sentence each
+3. LinkedIn / Telegram for the site
+4. OK with the photos we used?
 
 Warmly,  
 Elena
-
----
-
-*Placeholders {{PREVIEW_ROOT}} and {{GITHUB_REPO_URL}} are filled after deploy.*
