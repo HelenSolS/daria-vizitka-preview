@@ -1,5 +1,10 @@
 {
   "version": 2,
-  "cleanUrls": true,
-  "trailingSlash": true
+  "cleanUrls": false,
+  "trailingSlash": true,
+  "rewrites": [
+    { "source": "/v1", "destination": "/v1/" },
+    { "source": "/v2", "destination": "/v2/" },
+    { "source": "/v3", "destination": "/v3/" }
+  ]
 }
