@@ -20,9 +20,7 @@ We made three English portfolio versions for you. Please open all three on your 
 ## GitHub (edit the site yourself)
 
 - **Repository:** https://github.com/HelenSolS/daria-vizitka-preview
-- **Your access:** invitation sent to **daria.soldatova.v@gmail.com** — please accept via email or https://github.com/notifications (Collaborator invite).
-
-After accepting, you can edit files in the browser or clone the repo.
+- **Your access:** repo is public — you can **Fork** and edit, or send your GitHub username and we add you as collaborator: https://github.com/HelenSolS/daria-vizitka-preview/settings/access
 
 ## How to add your Behance work
 
