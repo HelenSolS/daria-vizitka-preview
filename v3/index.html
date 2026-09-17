@@ -72,46 +72,7 @@
     <h2>Tap a marker — the story unfolds in layers.</h2>
     <p class="hint">✦ illustrated tide line · click any creature</p>
 
-    <div class="map" id="map">
-      <img class="map-bg" src="assets/decor/waves.svg" alt="">
-      <svg class="map-line" viewBox="0 0 900 380" preserveAspectRatio="none" aria-hidden="true">
-        <path class="base" d="M30 190 C130 80 220 280 310 190 S490 80 580 190 730 280 820 190" fill="none" stroke="#E7DCCB" stroke-width="4"/>
-        <path class="fill" id="lineFill" d="M30 190 C130 80 220 280 310 190 S490 80 580 190 730 280 820 190" fill="none" stroke="#2E7D7B" stroke-width="5" stroke-linecap="round"/>
-      </svg>
-
-      <ol class="markers" id="markers">
-        <li class="m on" style="--x:5%;--y:48%" data-i="0" data-art="assets/decor/shell.svg"
-          data-title="Lyceum 30 · honours" data-when="2018–2020"
-          data-body="Physics-mathematics lyceum with honours. English contests, volunteering, first events — learning to lead with care.">
-          <button type="button" aria-expanded="true"><img src="assets/decor/shell.svg" alt=""><span>Lyceum</span></button>
-        </li>
-        <li class="m" style="--x:19%;--y:26%" data-i="1" data-art="assets/decor/fish.svg"
-          data-title="Applied mathematics" data-when="2020–2022 · ITMO"
-          data-body="Advanced maths and programming. Systems thinking that still shapes my information architecture.">
-          <button type="button" aria-expanded="false"><img src="assets/decor/fish.svg" alt=""><span>Maths</span></button>
-        </li>
-        <li class="m" style="--x:35%;--y:54%" data-i="2" data-art="assets/decor/starfish.svg"
-          data-title="UI/UX bachelor" data-when="2021–2025 · ITMO"
-          data-body="Programming, painting, design basics. JetBrains Android planner. VK iOS Game of Life. Design that ships.">
-          <button type="button" aria-expanded="false"><img src="assets/decor/starfish.svg" alt=""><span>UX BA</span></button>
-        </li>
-        <li class="m" style="--x:52%;--y:36%" data-i="3" data-art="assets/decor/waves.svg"
-          data-title="SpankPls · product" data-when="2022–now"
-          data-body="App design, graphics, growth. Now owning the core app and additional products — real users, real retention.">
-          <button type="button" aria-expanded="false"><img src="assets/decor/waves.svg" alt=""><span>SpankPls</span></button>
-        </li>
-        <li class="m" style="--x:68%;--y:58%" data-i="4" data-art="assets/decor/octopus.svg"
-          data-title="Data + AI research" data-when="2023–2025"
-          data-body="Data Analysis diploma. Published talk “Using AI in UX research” at PPS ITMO 2025. Evidence over opinion.">
-          <button type="button" aria-expanded="false"><img src="assets/decor/octopus.svg" alt=""><span>AI talk</span></button>
-        </li>
-        <li class="m" style="--x:84%;--y:32%" data-i="5" data-art="assets/decor/pearl.svg"
-          data-title="Bauhaus HCI" data-when="2025–2027 · Weimar"
-          data-body="Master’s in Human-Computer Interaction. Calm technology with a humanistic compass — seeking a team to grow with.">
-          <button type="button" aria-expanded="false"><img src="assets/decor/pearl.svg" alt=""><span>Weimar</span></button>
-        </li>
-      </ol>
-
+    <div class="journey-layout">
       <div class="story open" id="story">
         <div class="story-layer l3"></div>
         <div class="story-layer l2"></div>
@@ -124,6 +85,48 @@
           </div>
         </article>
       </div>
+
+      <div class="map" id="map">
+      <img class="map-bg" src="assets/decor/waves.svg" alt="">
+      <svg class="map-line" viewBox="0 0 900 380" preserveAspectRatio="none" aria-hidden="true">
+        <path class="base" d="M30 190 C130 80 220 280 310 190 S490 80 580 190 730 280 820 190" fill="none" stroke="#E7DCCB" stroke-width="4"/>
+        <path class="fill" id="lineFill" d="M30 190 C130 80 220 280 310 190 S490 80 580 190 730 280 820 190" fill="none" stroke="#2E7D7B" stroke-width="5" stroke-linecap="round"/>
+        <path id="journeyPath" d="M30 190 C130 80 220 280 310 190 S490 80 580 190 730 280 820 190" fill="none" stroke="transparent" stroke-width="1"/>
+      </svg>
+
+      <ol class="markers" id="markers">
+        <li class="m on" data-i="0" data-art="assets/decor/shell.svg"
+          data-title="Lyceum 30 · honours" data-when="2018–2020"
+          data-body="Physics-mathematics lyceum with honours. English contests, volunteering, first events — learning to lead with care.">
+          <button type="button" aria-expanded="true"><img src="assets/decor/shell.svg" alt=""><span>Lyceum</span></button>
+        </li>
+        <li class="m" data-i="1" data-art="assets/decor/fish.svg"
+          data-title="Applied mathematics" data-when="2020–2022 · ITMO"
+          data-body="Advanced maths and programming. Systems thinking that still shapes my information architecture.">
+          <button type="button" aria-expanded="false"><img src="assets/decor/fish.svg" alt=""><span>Maths</span></button>
+        </li>
+        <li class="m" data-i="2" data-art="assets/decor/starfish.svg"
+          data-title="UI/UX bachelor" data-when="2021–2025 · ITMO"
+          data-body="Programming, painting, design basics. JetBrains Android planner. VK iOS Game of Life. Design that ships.">
+          <button type="button" aria-expanded="false"><img src="assets/decor/starfish.svg" alt=""><span>UX BA</span></button>
+        </li>
+        <li class="m" data-i="3" data-art="assets/decor/waves.svg"
+          data-title="SpankPls · product" data-when="2022–now"
+          data-body="App design, graphics, growth. Now owning the core app and additional products — real users, real retention.">
+          <button type="button" aria-expanded="false"><img src="assets/decor/waves.svg" alt=""><span>SpankPls</span></button>
+        </li>
+        <li class="m" data-i="4" data-art="assets/decor/octopus.svg"
+          data-title="Data + AI research" data-when="2023–2025"
+          data-body="Data Analysis diploma. Published talk “Using AI in UX research” at PPS ITMO 2025. Evidence over opinion.">
+          <button type="button" aria-expanded="false"><img src="assets/decor/octopus.svg" alt=""><span>AI talk</span></button>
+        </li>
+        <li class="m" data-i="5" data-art="assets/decor/pearl.svg"
+          data-title="Bauhaus HCI" data-when="2025–2027 · Weimar"
+          data-body="Master’s in Human-Computer Interaction. Calm technology with a humanistic compass — seeking a team to grow with.">
+          <button type="button" aria-expanded="false"><img src="assets/decor/pearl.svg" alt=""><span>Weimar</span></button>
+        </li>
+      </ol>
+    </div>
     </div>
   </div>
 </section>
@@ -167,7 +170,7 @@
 
 <footer class="foot wrap">
   <p>© <span id="yr"></span> Daria Soldatova · v3 illustrated</p>
-  <p class="versions"><a href="../">All versions</a> · <a href="../v1/">v1</a> · <a href="../v2/">v2</a></p>
+  <p class="versions"><a href="/">All versions</a> · <a href="/v1/">v1</a> · <a href="/v2/">v2</a></p>
 </footer>
 <script src="script.js"></script>
 </body>
