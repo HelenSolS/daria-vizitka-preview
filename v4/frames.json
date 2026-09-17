@@ -1,10 +1,14 @@
 {
-  "count": 70,
-  "width": 1920,
-  "height": 1080,
+  "count": 175,
+  "width": 1280,
+  "height": 720,
   "prefix": "frame-",
   "pad": 4,
   "ext": "jpg",
-  "source": "studio-stills-stepwise",
-  "note": "Replace with MiniMax H3 extract when KIE_API_KEY is local."
+  "source": "motion.mp4",
+  "probe": {
+    "nb_frames": "175",
+    "avg_frame_rate": "24/1",
+    "duration": "7.291667"
+  }
 }

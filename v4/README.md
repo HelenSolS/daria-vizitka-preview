@@ -1,7 +1,5 @@
-# Version 4 — white studio lookbook
+# v4 — white studio scroll lookbook
 
-Canvas nearest-frame scroll (no `<video>`). Sit with laptop → stand → turn → heart.
-
-Live: https://daria-vizitka-preview.vercel.app/v4/
-
-Mirror: https://helensols.github.io/daria-vizitka-preview/v4/
+Source: MiniMax H3 2K / 7s via Kie (character-look-footer scroll mode).
+Sit+laptop → stand → turn → heart (wide frame) → sit again.
+Nearest-frame scrub, no <video>, no crossfade.

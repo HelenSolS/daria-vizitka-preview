@@ -1,51 +1,53 @@
 {
   "name": "Daria.",
-  "greet": "Привет, я Даша",
-  "title": "Daria Soldatova — UI/UX designer",
+  "greet": "Hi, I'm Dasha",
+  "title": "Daria Soldatova",
   "telegram": "#",
   "whatsapp": "#",
   "instagram": "#",
   "menu": [
-    "Карьера",
-    "Образование",
-    "Behance"
+    "Work",
+    "About",
+    "Talk"
   ],
-  "manifesto": "Белая циклорама.<br>Даша чуть правее центра.<br>Ноут → встаёт →<br>поворот → сердечко.",
-  "cta": "Написать Даше",
-  "editorial": "UI/UX designer: SpankPls с 2022, HCI в Bauhaus Weimar, речь «Using AI in UX research» на PPS ITMO.",
+  "manifesto": "Вещи шьют медленно<br>из того, что уже было.<br>Красят руками.<br>Носят годами.",
+  "cta": "See work",
+  "editorial": "Каждая вещь начинается с того, что уже существует: остатки партий, свой деним, ткань с чужих полок.",
   "specs": [
     [
-      "Роль",
+      "Role",
       "UI/UX designer"
     ],
     [
-      "Сейчас",
+      "Now",
       "SpankPls"
     ],
     [
-      "Учёба",
+      "Study",
       "Bauhaus HCI"
     ],
     [
-      "База",
+      "Base",
       "ITMO UI/UX"
     ]
   ],
-  "shopTitle": "Работы",
-  "shopNote": "SpankPls, диплом школы массажа, музей ёлочной игрушки — Behance plashik.",
+  "shopTitle": "Магазин",
+  "shopNote": "Шесть вещей первого дропа. Каждая кроена и пронумерована вручную.",
   "cards": [
     {
       "title": "SpankPls",
-      "note": "Приложение · 2023"
+      "note": "App · 2023"
     },
     {
-      "title": "Школа массажа",
-      "note": "Диплом · 2025"
+      "title": "Massage school",
+      "note": "Diploma · 2025"
     },
     {
-      "title": "Музей игрушки",
-      "note": "Сайт · 2024"
+      "title": "Toy museum",
+      "note": "Site · 2024"
     }
   ],
-  "hint": "Листайте вниз"
+  "hint": "Листайте вниз",
+  "manifest": "UI/UX designer · SpankPls since 2022 · HCI at Bauhaus Weimar",
+  "cta_url": "https://www.behance.net/plashik"
 }
