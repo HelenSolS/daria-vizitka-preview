@@ -28,3 +28,5 @@ https://github.com/HelenSolS/daria-vizitka-preview/settings/access
 ## Copy-paste message for Dasha
 
 See `SEND-TO-DASHA.txt` or `EMAIL-TO-DASHA.md`
+
+| v5 gaze follow | https://daria-vizitka-preview.vercel.app/v5/ | H3 orbit + lerp |

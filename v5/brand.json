@@ -1,0 +1,54 @@
+{
+  "name": "Daria.",
+  "bottom": "UI/UX · move the cursor — I follow",
+  "bg": "#f4f1ea",
+  "columns": [
+    {
+      "title": "Work",
+      "items": [
+        "SpankPls",
+        "Massage school",
+        "Toy museum",
+        "Behance"
+      ]
+    },
+    {
+      "title": "About",
+      "items": [
+        "UI/UX designer",
+        "SpankPls since 2022",
+        "HCI Bauhaus Weimar",
+        "ITMO"
+      ]
+    },
+    {
+      "title": "Talk",
+      "items": [
+        "Telegram",
+        "WhatsApp",
+        "Instagram",
+        "Email"
+      ]
+    },
+    {
+      "title": "Now",
+      "items": [
+        "See work",
+        "Behance",
+        "Resume",
+        "Contact"
+      ]
+    }
+  ],
+  "bottomIsLink": false,
+  "lang": "ru",
+  "site": "https://mayai.ru",
+  "author": "Артур Хорошев",
+  "product": "Клуб «Контент-завод»",
+  "forbidden": [
+    "Instagram",
+    "instagram",
+    "Инстаграм"
+  ],
+  "notes": "Карта с mayai.ru. Instagram не ставить. Нижняя строка без ссылки."
+}
