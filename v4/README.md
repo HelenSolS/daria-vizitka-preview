@@ -1,5 +1,7 @@
-# Version 4 — white studio motion
+# Version 4 — white studio lookbook
 
-Sticky portrait a little right of centre, mouse menu on the left, white cyclorama.
+Canvas nearest-frame scroll (no `<video>`). Sit with laptop → stand → turn → heart.
 
-Scroll stills: sit with laptop → stand → turn (dance / profile / back) → heart closer.
+Live: https://daria-vizitka-preview.vercel.app/v4/
+
+Mirror: https://helensols.github.io/daria-vizitka-preview/v4/

@@ -18,7 +18,7 @@ We made four English portfolio versions for you. Please open them on your phone 
 - **v1 — minimal:** https://daria-vizitka-preview.vercel.app/v1/
 - **v2 — sea:** https://daria-vizitka-preview.vercel.app/v2/
 - **v3 — illustrated:** https://daria-vizitka-preview.vercel.app/v3/
-- **v4 — white studio motion:** https://daria-vizitka-preview.vercel.app/v4/
+- **v4 — white studio lookbook:** https://daria-vizitka-preview.vercel.app/v4/
 
 **Mirror (GitHub Pages):**
 

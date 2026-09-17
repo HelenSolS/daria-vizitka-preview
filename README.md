@@ -8,7 +8,7 @@ Deploy targets: **GitHub Pages** (mirror) and **Vercel** static.
 | `/v1/` | minimal calm |
 | `/v2/` | sea interactive |
 | `/v3/` | illustrated + hero collage PNG |
-| `/v4/` | white studio motion portrait |
+| `/v4/` | white studio canvas lookbook (sit → stand → turn → heart) |
 
 GitHub Pages: https://helensols.github.io/daria-vizitka-preview/
 

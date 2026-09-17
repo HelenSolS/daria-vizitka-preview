@@ -8,7 +8,7 @@
 | v1 minimal | https://daria-vizitka-preview.vercel.app/v1/ | OK |
 | v2 sea | https://daria-vizitka-preview.vercel.app/v2/ | OK |
 | v3 illustrated | https://daria-vizitka-preview.vercel.app/v3/ | OK |
-| v4 white studio motion | https://daria-vizitka-preview.vercel.app/v4/ | pending same deploy |
+| v4 white studio lookbook | https://daria-vizitka-preview.vercel.app/v4/ | canvas frames, sit → stand → turn → heart |
 
 Dashboard: https://vercel.com/helensol-1s-projects-f372cf4a/daria-vizitka-preview
 

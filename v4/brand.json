@@ -1,0 +1,51 @@
+{
+  "name": "Daria.",
+  "greet": "Привет, я Даша",
+  "title": "Daria Soldatova — UI/UX designer",
+  "telegram": "#",
+  "whatsapp": "#",
+  "instagram": "#",
+  "menu": [
+    "Карьера",
+    "Образование",
+    "Behance"
+  ],
+  "manifesto": "Белая циклорама.<br>Даша чуть правее центра.<br>Ноут → встаёт →<br>поворот → сердечко.",
+  "cta": "Написать Даше",
+  "editorial": "UI/UX designer: SpankPls с 2022, HCI в Bauhaus Weimar, речь «Using AI in UX research» на PPS ITMO.",
+  "specs": [
+    [
+      "Роль",
+      "UI/UX designer"
+    ],
+    [
+      "Сейчас",
+      "SpankPls"
+    ],
+    [
+      "Учёба",
+      "Bauhaus HCI"
+    ],
+    [
+      "База",
+      "ITMO UI/UX"
+    ]
+  ],
+  "shopTitle": "Работы",
+  "shopNote": "SpankPls, диплом школы массажа, музей ёлочной игрушки — Behance plashik.",
+  "cards": [
+    {
+      "title": "SpankPls",
+      "note": "Приложение · 2023"
+    },
+    {
+      "title": "Школа массажа",
+      "note": "Диплом · 2025"
+    },
+    {
+      "title": "Музей игрушки",
+      "note": "Сайт · 2024"
+    }
+  ],
+  "hint": "Листайте вниз"
+}

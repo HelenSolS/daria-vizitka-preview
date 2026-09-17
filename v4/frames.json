@@ -1,0 +1,10 @@
+{
+  "count": 70,
+  "width": 1920,
+  "height": 1080,
+  "prefix": "frame-",
+  "pad": 4,
+  "ext": "jpg",
+  "source": "studio-stills-stepwise",
+  "note": "Replace with MiniMax H3 extract when KIE_API_KEY is local."
+}
