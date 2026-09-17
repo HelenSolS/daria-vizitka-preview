@@ -13,7 +13,7 @@ v2 sea: https://helensols.github.io/daria-vizitka-preview/v2/
 v3 illustrated: https://helensols.github.io/daria-vizitka-preview/v3/
 
 GitHub repo: https://github.com/HelenSolS/daria-vizitka-preview
-Public repo — Fork to your account and edit v2/v3, or send us your GitHub username for write access.
+Public repo — Fork to your account and edit v2/v3, or send your GitHub username for write access (Settings → Collaborators on our side).
 
 To add Behance work: edit v3/index.html → Work section → titles, descriptions, links. Optional images in v3/assets/work/.
 
