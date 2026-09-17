@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daria Soldatova — UI/UX Designer · Sea edition</title>
+<meta name="description" content="Daria Soldatova — tender UX portfolio with an interactive sea journey. Bauhaus Weimar, ITMO, AI in UX research.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><ellipse cx='50' cy='58' rx='28' ry='22' fill='%232E7D7B'/><path d='M30 40 Q50 20 70 40' fill='none' stroke='%23F3D9D2' stroke-width='4'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<div class="sea-bg" aria-hidden="true">
+  <span class="deco d1"></span><span class="deco d2"></span><span class="deco d3"></span>
+  <span class="deco d4"></span><span class="deco d5"></span><span class="deco d6"></span>
+</div>
+
+<header class="nav">
+  <div class="wrap nav-in">
+    <a class="brand" href="#top">Daria <span>Soldatova</span></a>
+    <span class="ver">v2 · sea</span>
+    <nav class="links">
+      <a href="#about">About</a><a href="#journey">Journey</a><a href="#work">Work</a><a href="#contact">Contact</a>
+    </nav>
+    <button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="main">
+<section class="hero wrap" id="top">
+  <div class="hero-copy">
+    <p class="eyebrow"><svg class="mini-wave" viewBox="0 0 40 8"><path d="M0 4 Q10 0 20 4 T40 4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg> UI/UX · HCI · Weimar</p>
+    <h1>Design that feels like <em>breathing out</em> by the sea.</h1>
+    <p class="lede">I craft calm interfaces with research depth, data literacy and gentle neural-tool fluency — for teams who care about people, not noise.</p>
+    <div class="cta"><a class="btn sea" href="#journey">Follow my journey</a><a class="btn line" href="#contact">Say hello</a></div>
+  </div>
+  <figure class="hero-frame">
+    <div class="frame-inner"><img src="assets/photo/back-sea.jpg" alt="Daria facing the sea in a white dress"></div>
+    <svg class="shell-badge" viewBox="0 0 48 48" aria-hidden="true"><path d="M24 6 C14 14 8 24 8 32 C8 40 15 44 24 44 C33 44 40 40 40 32 C40 24 34 14 24 6Z" fill="none" stroke="#2E7D7B" stroke-width="1.5"/><path d="M24 12 C18 18 14 26 14 32 M24 12 C30 18 34 26 34 32 M24 12 L24 38" stroke="#7FBCAE" stroke-width="1" opacity=".7"/></svg>
+  </figure>
+</section>
+
+<section class="section wrap" id="about">
+  <p class="sec-num">01</p>
+  <div class="about-grid">
+    <div>
+      <h2>Soft on the surface,<br>structured underneath.</h2>
+      <p>ITMO taught me UI/UX, painting and code. Applied maths taught me systems. Bauhaus Weimar teaches me humanity in technology.</p>
+      <ul class="soft-tags"><li>UX research</li><li>Prototyping</li><li>AI in research</li><li>Design systems</li></ul>
+    </div>
+    <aside class="about-card">
+      <img src="assets/photo/full-front.jpg" alt="Daria on the shore" loading="lazy">
+      <p class="tiny">Bauhaus Weimar · HCI MSc · open to junior roles</p>
+    </aside>
+  </div>
+</section>
+
+<!-- SEA JOURNEY MAP -->
+<section class="section journey-sec" id="journey">
+  <div class="wrap">
+    <p class="sec-num">02</p>
+    <h2>My tide line — tap a shell to open the story.</h2>
+    <p class="hint-pulse">✦ click the markers along the wave</p>
+
+    <div class="journey-wrap">
+      <svg class="tide-path" viewBox="0 0 900 420" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+        <defs><linearGradient id="tg" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#7FBCAE"/><stop offset="100%" stop-color="#2E7D7B"/></linearGradient></defs>
+        <path class="tide-base" d="M40 210 C120 120 200 280 280 210 S440 120 520 210 680 280 760 210 860 160" fill="none" stroke="#E7DCCB" stroke-width="3" stroke-linecap="round"/>
+        <path class="tide-fill" id="tideFill" d="M40 210 C120 120 200 280 280 210 S440 120 520 210 680 280 760 210 860 160" fill="none" stroke="url(#tg)" stroke-width="4" stroke-linecap="round"/>
+      </svg>
+
+      <ol class="stops" id="stops">
+        <li class="stop on" style="--x:4%;--y:48%" data-i="0"
+          data-title="Lyceum 30 · honours"
+          data-when="2018–2020"
+          data-body="Physics-mathematics lyceum with honours. Regional English contest winner, most creative student, Physics Lab nominee. Volunteering and organising events — learning to lead with care.">
+          <button type="button" aria-expanded="true"><span class="ico shell"></span><span class="lbl">Lyceum</span></button>
+        </li>
+        <li class="stop" style="--x:18%;--y:28%" data-i="1"
+          data-title="Applied mathematics"
+          data-when="2020–2022 · ITMO"
+          data-body="Two years of advanced maths and programming. Systems thinking that still shapes my information architecture and logic in design.">
+          <button type="button" aria-expanded="false"><span class="ico fish"></span><span class="lbl">Maths</span></button>
+        </li>
+        <li class="stop" style="--x:34%;--y:52%" data-i="2"
+          data-title="UI/UX bachelor"
+          data-when="2021–2025 · ITMO"
+          data-body="Four years: programming, painting, design basics. JetBrains Android planner in Kotlin. VK iOS Game of Life in Swift. Design that ships.">
+          <button type="button" aria-expanded="false"><span class="ico star"></span><span class="lbl">UX BA</span></button>
+        </li>
+        <li class="stop" style="--x:52%;--y:38%" data-i="3"
+          data-title="SpankPls · product"
+          data-when="2022–now"
+          data-body="Designed the app and graphics, helped it grow. Now owning the core app and additional products — real users, real retention.">
+          <button type="button" aria-expanded="false"><span class="ico wave-ico"></span><span class="lbl">SpankPls</span></button>
+        </li>
+        <li class="stop" style="--x:68%;--y:58%" data-i="4"
+          data-title="Data + AI research"
+          data-when="2023–2025"
+          data-body="Postgraduate diploma in Data Analysis. Published talk “Using AI in UX research” at PPS ITMO 2025. Evidence over opinion.">
+          <button type="button" aria-expanded="false"><span class="ico octo"></span><span class="lbl">AI talk</span></button>
+        </li>
+        <li class="stop" style="--x:84%;--y:36%" data-i="5"
+          data-title="Bauhaus HCI"
+          data-when="2025–2027 · Weimar"
+          data-body="Master’s in Human-Computer Interaction. Designing calm technology with a humanistic compass — looking for a team to grow with.">
+          <button type="button" aria-expanded="false"><span class="ico pearl"></span><span class="lbl">Weimar</span></button>
+        </li>
+      </ol>
+
+      <div class="panel open" id="panel" aria-live="polite">
+        <div class="panel-stack">
+          <div class="panel-sheet s1"></div>
+          <div class="panel-sheet s2"></div>
+          <div class="panel-body">
+            <p class="panel-when" id="pWhen">2018–2020</p>
+            <h3 id="pTitle">Lyceum 30 · honours</h3>
+            <p id="pBody">Physics-mathematics lyceum with honours. Regional English contest winner, most creative student, Physics Lab nominee. Volunteering and organising events — learning to lead with care.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section wrap" id="work">
+  <p class="sec-num">03</p>
+  <h2>Work that speaks quietly.</h2>
+  <div class="work-row">
+    <article class="w"><h3>SpankPls</h3><p>Product design · growth · additional products</p><a href="https://www.behance.net/plashik" target="_blank" rel="noopener">Behance →</a></article>
+    <article class="w"><h3>AI in UX research</h3><p>Conference talk · PPS ITMO 2025</p><a href="https://www.behance.net/plashik" target="_blank" rel="noopener">Behance →</a></article>
+    <article class="w"><h3>Mobile internships</h3><p>Android · iOS · design + code</p><a href="https://www.behance.net/plashik" target="_blank" rel="noopener">Behance →</a></article>
+  </div>
+</section>
+
+<section class="section wrap" id="contact">
+  <p class="sec-num">04</p>
+  <div class="contact-sea">
+    <div>
+      <h2>Drop a message in a bottle.</h2>
+      <p>Open to junior product roles worldwide. Replies within two days.</p>
+      <a class="btn sea" href="mailto:daria.soldatova@uni-weimar.de">daria.soldatova@uni-weimar.de</a>
+      <a class="btn line light" href="assets/cv.pdf" download>Download CV</a>
+    </div>
+    <img src="assets/photo/profile-side.jpg" alt="Daria portrait" loading="lazy" class="contact-photo">
+  </div>
+</section>
+</main>
+
+<footer class="foot wrap">
+  <p>© <span id="yr"></span> Daria Soldatova · v2 sea edition</p>
+  <a href="/">All versions</a> · <a href="/v1/">View v1 (minimal)</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
