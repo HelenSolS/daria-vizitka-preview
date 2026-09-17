@@ -2,13 +2,13 @@
 
 **To:** daria.soldatova@uni-weimar.de  
 **Cc:** daria.soldatova.v@gmail.com  
-**Subject:** Your portfolio preview — 3 versions + GitHub access
+**Subject:** Your portfolio preview — 4 versions + GitHub access
 
 ---
 
 Hi Daria,
 
-We made three English portfolio versions for you. Please open all three on your phone and laptop, click the journey markers, and tell us which direction you prefer (or what to mix).
+We made four English portfolio versions for you. Please open them on your phone and laptop, click the journey markers, and tell us which direction you prefer (or what to mix).
 
 ## Live preview
 
@@ -18,10 +18,12 @@ We made three English portfolio versions for you. Please open all three on your 
 - **v1 — minimal:** https://daria-vizitka-preview.vercel.app/v1/
 - **v2 — sea:** https://daria-vizitka-preview.vercel.app/v2/
 - **v3 — illustrated:** https://daria-vizitka-preview.vercel.app/v3/
+- **v4 — white studio motion:** https://daria-vizitka-preview.vercel.app/v4/
 
 **Mirror (GitHub Pages):**
 
 - https://helensols.github.io/daria-vizitka-preview/
+- **v4:** https://helensols.github.io/daria-vizitka-preview/v4/
 
 ## GitHub (edit the site yourself)
 

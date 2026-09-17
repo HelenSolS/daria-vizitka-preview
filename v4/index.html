@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daria Soldatova — UI/UX designer</title>
+<meta name="description" content="Interactive resume on a white cyclorama: Daria sits with a laptop, stands, turns, and the heart comes closer.">
+<link rel="preload" as="image" href="look/01-recline.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,500;1,600&family=Inter:wght@400;500;600&family=Schibsted+Grotesk:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <a href="#hello" class="brand">Daria Soldatova <span>UI/UX designer</span></a>
+    <nav class="top-links">
+      <a href="#career">Career</a>
+      <a href="#education">Education</a>
+      <a href="https://www.behance.net/plashik" target="_blank" rel="noopener">Behance</a>
+      <a href="mailto:daria.soldatova@uni-weimar.de">Contact</a>
+      <a href="../">Hub</a>
+    </nav>
+  </header>
+
+  <div class="page" id="page">
+    <main>
+      <nav class="mouse-menu" id="mouse-menu" aria-label="Dasha">
+        <a data-id="hello" data-pose="sit" href="#hello">Hi, I’m Daria</a>
+        <a data-id="pick" data-pose="sit" href="#personas">Pick a Daria</a>
+        <a data-id="stand" data-pose="stand" href="#stand">She stands</a>
+        <a data-id="spin" data-pose="spinFront" href="#spin">She turns</a>
+        <a data-id="heart" data-pose="heart" href="#heart">Closer</a>
+        <a data-id="career" data-pose="spinProfile" href="#career">Career</a>
+        <a data-id="education" data-pose="stand" href="#education">Education</a>
+        <a data-id="contact" data-pose="heart" href="#contact">Write me</a>
+      </nav>
+
+      <div class="copy">
+        <section id="hello">
+          <p class="kicker">Bauhaus University, Weimar · HCI (MSc)</p>
+          <h1>Hi, I’m Daria,<br><em>UI/UX designer</em></h1>
+          <p class="lede">White studio. Daria stays a little right of centre — laptop, then she stands, turns, and the heart comes closer. Scroll. The copy never covers her.</p>
+        </section>
+
+        <section id="personas">
+          <p class="kicker">Pick a Daria</p>
+          <div class="personas">
+            <a href="#career" data-pose="sit" style="--tint:#111">Designer <span>SpankPls</span></a>
+            <a href="#education" data-pose="stand" style="--tint:#C45C26">HCI <span>Bauhaus Weimar</span></a>
+            <a href="#internships" data-pose="heart" style="--tint:#2F6FED">Speaker <span>AI in UX research</span></a>
+            <a href="#internships" data-pose="spinFront" style="--tint:#1A7F4B">Intern <span>VK · JetBrains</span></a>
+          </div>
+        </section>
+
+        <section id="stand">
+          <h2>She stands</h2>
+          <p class="lede">Laptop down. Full figure on white — stills, not a clip of her getting up.</p>
+        </section>
+
+        <section id="spin">
+          <h2>She turns</h2>
+          <p class="lede">Front, dance, profile, back. Catalog holds so she reads as a model turning in front of you.</p>
+        </section>
+
+        <section id="heart">
+          <h2>Closer</h2>
+          <p class="lede">Heart hands fill the frame. Background stays white. Text stays on the left.</p>
+        </section>
+
+        <section id="career">
+          <h2>Career</h2>
+          <p class="meta">2022 — current</p>
+          <h3>UI/UX designer <a href="https://spankpls.com/" target="_blank" rel="noopener">@ SpankPls</a></h3>
+          <p class="lede">Designed the app and the graphics, helped it grow, and is currently working on the app and in charge of additional products.</p>
+          <p class="tags">Product · UI/UX · Graphics</p>
+          <p class="kicker work-kicker">Selected work</p>
+          <ul class="work">
+            <li><a href="https://www.behance.net/plashik" target="_blank" rel="noopener">SpankPls</a> <span>2023</span></li>
+            <li><a href="https://www.behance.net/plashik" target="_blank" rel="noopener">Massage school website (thesis)</a> <span>2025</span></li>
+            <li><a href="https://www.behance.net/plashik" target="_blank" rel="noopener">Christmas ornament museum</a> <span>2024</span></li>
+            <li><a href="https://www.behance.net/plashik" target="_blank" rel="noopener">Beauty Coworking</a> <span>2024</span></li>
+            <li><a href="https://www.behance.net/plashik" target="_blank" rel="noopener">Restaurant aggregator</a> <span>2022</span></li>
+          </ul>
+        </section>
+
+        <section id="internships">
+          <h2>Internships and conferences</h2>
+          <article>
+            <p class="meta">2025 · PPS ITMO</p>
+            <h3>Using AI in UX research</h3>
+            <p class="lede">Held a speech at the conference and got the article published officially.</p>
+          </article>
+          <article>
+            <p class="meta">2021 · VK</p>
+            <h3>iOS app development internship</h3>
+            <p class="lede">Learned the basics of Swift and iOS app design and development and coded an app with Conway’s Game of Life.</p>
+          </article>
+          <article>
+            <p class="meta">2019 · JetBrains</p>
+            <h3>Android app development internship</h3>
+            <p class="lede">Worked in a team of 3 to design and code a planner app for Android using Kotlin and Android Studio.</p>
+          </article>
+          <article>
+            <p class="meta">2015 — 2017 · EPAM</p>
+            <h3>Python and Java courses for children</h3>
+            <p class="lede">Taught programming courses for children.</p>
+          </article>
+        </section>
+
+        <section id="education">
+          <h2>Education</h2>
+          <article>
+            <p class="meta">2025 — 2027</p>
+            <h3>Human-Computer Interaction (MSc)</h3>
+            <p class="place">Bauhaus University, Weimar</p>
+          </article>
+          <article>
+            <p class="meta">2023 — 2024</p>
+            <h3>Data Analysis, postgraduate diploma</h3>
+            <p class="place">ITMO University</p>
+          </article>
+          <article>
+            <p class="meta">2021 — 2025</p>
+            <h3>UI/UX design (BA)</h3>
+            <p class="place">ITMO University</p>
+            <p class="lede">Four-year course: programming, painting, and design basics.</p>
+          </article>
+          <article>
+            <p class="meta">2020 — 2022</p>
+            <h3>Applied Mathematics and Informatics (BSc, incomplete)</h3>
+            <p class="place">ITMO University</p>
+            <p class="lede">Two years in the programming field: advanced mathematics and programming.</p>
+          </article>
+          <article>
+            <p class="meta">2018 — 2020</p>
+            <h3>Graduated with honors</h3>
+            <p class="place">Gubernatorial Physics and Maths Lyceum 30</p>
+            <p class="lede">Won a regional English contest; awards for best English student and most creative student; nominated for best in Physics Lab. Organized events and volunteered with children.</p>
+          </article>
+        </section>
+
+        <section id="contact">
+          <h2>Write me</h2>
+          <p><a class="mail" href="mailto:daria.soldatova@uni-weimar.de">daria.soldatova@uni-weimar.de</a></p>
+          <p><a href="https://www.behance.net/plashik" target="_blank" rel="noopener">Behance</a></p>
+          <p><a href="https://spankpls.com/" target="_blank" rel="noopener">SpankPls</a></p>
+        </section>
+      </div>
+    </main>
+
+    <aside class="figure-col" aria-hidden="false">
+      <div class="figure-sticky">
+        <div class="figure" id="figure">
+          <p class="caption" id="caption">sits with the laptop</p>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <nav class="mobile-pill" id="mobile-pill">Hi, I’m Daria</nav>
+  <script src="script.js"></script>
+</body>
+</html>

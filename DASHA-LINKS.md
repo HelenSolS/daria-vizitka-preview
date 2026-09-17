@@ -8,6 +8,7 @@
 | v1 minimal | https://daria-vizitka-preview.vercel.app/v1/ | OK |
 | v2 sea | https://daria-vizitka-preview.vercel.app/v2/ | OK |
 | v3 illustrated | https://daria-vizitka-preview.vercel.app/v3/ | OK |
+| v4 white studio motion | https://daria-vizitka-preview.vercel.app/v4/ | pending same deploy |
 
 Dashboard: https://vercel.com/helensol-1s-projects-f372cf4a/daria-vizitka-preview
 
@@ -15,11 +16,13 @@ Dashboard: https://vercel.com/helensol-1s-projects-f372cf4a/daria-vizitka-previe
 
 https://helensols.github.io/daria-vizitka-preview/
 
+- v4: https://helensols.github.io/daria-vizitka-preview/v4/
+
 ## GitHub repository
 
 https://github.com/HelenSolS/daria-vizitka-preview
 
-**Write access for Dasha:** Settings → Collaborators → `daria.soldatova.v@gmail.com`  
+**Write access for Dasha:** Settings → Collaborators → `daria.soldatova.v@gmail.com`
 https://github.com/HelenSolS/daria-vizitka-preview/settings/access
 
 ## Copy-paste message for Dasha
