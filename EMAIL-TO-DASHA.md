@@ -12,10 +12,16 @@ We made three English portfolio versions for you. Please open all three on your 
 
 ## Live preview
 
-- **Choose version:** https://helensols.github.io/daria-vizitka-preview/
-- **v1 — minimal:** https://helensols.github.io/daria-vizitka-preview/v1/
-- **v2 — sea:** https://helensols.github.io/daria-vizitka-preview/v2/
-- **v3 — illustrated:** https://helensols.github.io/daria-vizitka-preview/v3/
+**Main link (Vercel):**
+
+- **Choose version:** https://daria-vizitka-preview.vercel.app/
+- **v1 — minimal:** https://daria-vizitka-preview.vercel.app/v1/
+- **v2 — sea:** https://daria-vizitka-preview.vercel.app/v2/
+- **v3 — illustrated:** https://daria-vizitka-preview.vercel.app/v3/
+
+**Mirror (GitHub Pages):**
+
+- https://helensols.github.io/daria-vizitka-preview/
 
 ## GitHub (edit the site yourself)
 

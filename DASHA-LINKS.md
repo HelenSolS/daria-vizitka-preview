@@ -1,36 +1,27 @@
 # Dasha — all links (verified 2026-09-17)
 
-## Live site (GitHub Pages) — works now
+## Live site (Vercel) — main
 
 | Page | URL | Status |
 |------|-----|--------|
-| Choose version | https://helensols.github.io/daria-vizitka-preview/ | OK |
-| v1 minimal | https://helensols.github.io/daria-vizitka-preview/v1/ | OK |
-| v2 sea | https://helensols.github.io/daria-vizitka-preview/v2/ | OK |
-| v3 illustrated | https://helensols.github.io/daria-vizitka-preview/v3/ | OK |
+| Choose version | https://daria-vizitka-preview.vercel.app/ | OK |
+| v1 minimal | https://daria-vizitka-preview.vercel.app/v1/ | OK |
+| v2 sea | https://daria-vizitka-preview.vercel.app/v2/ | OK |
+| v3 illustrated | https://daria-vizitka-preview.vercel.app/v3/ | OK |
+
+Dashboard: https://vercel.com/helensol-1s-projects-f372cf4a/daria-vizitka-preview
+
+## Mirror (GitHub Pages)
+
+https://helensols.github.io/daria-vizitka-preview/
 
 ## GitHub repository
 
 https://github.com/HelenSolS/daria-vizitka-preview
 
-**Write access for Dasha:** Elena adds collaborator at  
-https://github.com/HelenSolS/daria-vizitka-preview/settings/access  
-→ Invite collaborator → `daria.soldatova.v@gmail.com` (or Dasha’s GitHub username)
-
-Until invite is accepted, Dasha can **Fork** the public repo and edit v2/v3.
-
-## Vercel (custom domain later)
-
-Import repo (one click):  
-https://vercel.com/new/import?s=https://github.com/HelenSolS/daria-vizitka-preview
-
-Or in terminal (after `vercel login`):
-
-```bash
-cd ~/Desktop/daria-vizitka-preview
-npx vercel deploy --prod --yes
-```
+**Write access for Dasha:** Settings → Collaborators → `daria.soldatova.v@gmail.com`  
+https://github.com/HelenSolS/daria-vizitka-preview/settings/access
 
 ## Copy-paste message for Dasha
 
-See `SEND-TO-DASHA.txt`
+See `SEND-TO-DASHA.txt` or `EMAIL-TO-DASHA.md`
