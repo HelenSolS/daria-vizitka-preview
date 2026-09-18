@@ -42,13 +42,8 @@
   ],
   "bottomIsLink": false,
   "lang": "ru",
-  "site": "https://mayai.ru",
-  "author": "Артур Хорошев",
-  "product": "Клуб «Контент-завод»",
-  "forbidden": [
-    "Instagram",
-    "instagram",
-    "Инстаграм"
-  ],
-  "notes": "Карта с mayai.ru. Instagram не ставить. Нижняя строка без ссылки."
+  "author": "Daria Soldatova",
+  "product": "UI/UX portfolio",
+  "cta_url": "https://www.behance.net/plashik",
+  "notes": "Dasha resume copy on Arthur gaze character. Do not revert to Kovcheg/Arthur."
 }
