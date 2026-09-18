@@ -1,0 +1,27 @@
+{
+  "name": "Daria.",
+  "title": "Daria Soldatova",
+  "role": "UI/UX designer",
+  "email": "daria.soldatova@uni-weimar.de",
+  "behance": "https://www.behance.net/plashik",
+  "bottom": "Daria Soldatova · UI/UX designer",
+  "bg": "#f4f1ea",
+  "career": {
+    "org": "SpankPls",
+    "role": "UI/UX designer",
+    "years": "2022-current"
+  },
+  "education": [
+    "Bauhaus University Weimar — HCI MSc (2025-2027)",
+    "ITMO — Data Analysis postgraduate (2023-2024)",
+    "ITMO — UI/UX design BA (2021-2025)",
+    "ITMO — Applied Math BSc incomplete (2020-2022)",
+    "Lyceum 30 (2018-2020)"
+  ],
+  "internships": [
+    "PPS ITMO 2025 — Using AI in UX research",
+    "VK 2021 — iOS internship",
+    "JetBrains 2019 — Android internship",
+    "Epam 2015-2017 — Python/Java courses for children"
+  ]
+}
