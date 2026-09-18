@@ -470,7 +470,7 @@
         img.decoding = "async";
         img.onload = () => resolve(img);
         img.onerror = reject;
-        img.src = "frames-lite/" + file + "?v=20260918b";
+        img.src = "frames-lite/" + file + "?v=20260918mix";
       });
     }
 
@@ -618,7 +618,7 @@
     async function boot() {
       canvas = document.getElementById("eyes");
       ctx = canvas.getContext("2d", { alpha: false, desynchronized: true });
-      gaze = await (await fetch("gaze.json?v=20260918b", { cache: "no-cache" })).json();
+      gaze = await (await fetch("gaze.json?v=20260918mix", { cache: "no-cache" })).json();
       if (!Array.isArray(gaze.origin) || gaze.origin.length !== 2) {
         gaze.origin = [0.502, 0.205];
       }
@@ -628,7 +628,7 @@
       ctx.imageSmoothingQuality = "high";
 
       try {
-        scrollMeta = await (await fetch("scroll.json?v=20260918b", { cache: "no-cache" })).json();
+        scrollMeta = await (await fetch("scroll.json?v=20260918mix", { cache: "no-cache" })).json();
       } catch (err) {
         console.warn("scroll.json missing", err);
         scrollMeta = null;
@@ -711,7 +711,7 @@
               el.decoding = "async";
               el.onload = () => resolve(el);
               el.onerror = reject;
-              el.src = "frames-scroll/" + file + "?v=20260918b";
+              el.src = "frames-scroll/" + file + "?v=20260918mix";
             });
             scrollPics.set(file, img);
           } catch (err) {
