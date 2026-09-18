@@ -486,7 +486,7 @@
       const radius = Math.min(1, Math.hypot(x, y));
       ctx.globalCompositeOperation = "copy";
       ctx.globalAlpha = 1;
-      if (radius < 0.14) {
+      if (radius < 0.04) {
         drawFrame(pics.get(restFile()), 1, true);
       } else {
         const samples = gaze.samples;
@@ -613,25 +613,37 @@
       window.addEventListener("resize", onScroll, { passive: true });
       onScroll();
 
-      // Dynamic cursor tracking
-      window.addEventListener("pointermove", (event) => {
+      // Gaze follows pointer even without scroll (same behavior as v5 guy)
+      const onPointer = (event) => {
+        if (event.pointerType === "touch" && event.type === "pointermove" && event.buttons === 0) {
+          /* allow hover-less move on some devices */
+        }
         const cbox = canvas.getBoundingClientRect();
+        if (cbox.width < 2 || cbox.height < 2) return;
         const ox = cbox.left + cbox.width * gaze.origin[0];
         const oy = cbox.top + cbox.height * gaze.origin[1];
         let dx = event.clientX - ox;
         let dy = event.clientY - oy;
         if (gaze.flipX) dx = -dx;
         const dist = Math.hypot(dx, dy);
-        const dead = cbox.width * 0.022;
-        const maxPull = cbox.width * 0.16;
+        const dead = cbox.width * 0.012;
+        const maxPull = cbox.width * 0.22;
         const radius = Math.min(1, Math.max(0, (dist - dead) / maxPull));
         const ang = Math.atan2(dy, dx);
         hovering = true;
         tx = Math.cos(ang) * radius;
         ty = Math.sin(ang) * radius;
-      });
+      };
+      window.addEventListener("pointermove", onPointer, { passive: true });
+      window.addEventListener("mousemove", onPointer, { passive: true });
+      document.addEventListener("pointermove", onPointer, { passive: true });
 
-      window.addEventListener("pointerleave", () => {
+      document.documentElement.addEventListener("pointerleave", () => {
+        hovering = false;
+        tx = 0;
+        ty = 0;
+      });
+      window.addEventListener("blur", () => {
         hovering = false;
         tx = 0;
         ty = 0;
@@ -656,15 +668,17 @@
         });
       });
 
-      requestAnimationFrame(tick);
-
       const extra = [...new Set((gaze.samples || []).map((sample) => sample.file))]
         .filter((file) => file !== restFile());
       await Promise.all(extra.map(async (file) => {
         pics.set(file, await loadPic(file));
       }));
+      requestAnimationFrame(tick);
     }
-    boot();
+    boot().catch((err) => {
+      console.error(err);
+      document.body.insertAdjacentHTML("beforeend", "<p style='padding:24px'>Gaze boot failed: "+err+"</p>");
+    });
   </script>
 </body>
 </html>
