@@ -470,7 +470,7 @@
         img.decoding = "async";
         img.onload = () => resolve(img);
         img.onerror = reject;
-        img.src = "frames-lite/" + file + "?v=20260918mix";
+        img.src = "frames-lite/" + file + "?v=20260918mix2";
       });
     }
 
@@ -514,15 +514,17 @@
         if (radius < 0.04) {
           drawFrame(pics.get(restFile()), 1, true);
         } else {
+          // Nearest orbit frame only — no alpha crossfade (crossfade muddied colors while eyelids moved)
           const samples = gaze.samples;
           const angle = (Math.atan2(y, x) + TWO_PI) % TWO_PI;
-          let next = samples.findIndex((sample) => sample.angle > angle);
-          if (next < 0) next = 0;
-          const prev = (next - 1 + samples.length) % samples.length;
-          const span = (samples[next].angle - samples[prev].angle + TWO_PI) % TWO_PI || TWO_PI;
-          const t = ((angle - samples[prev].angle + TWO_PI) % TWO_PI) / span;
-          drawFrame(pics.get(samples[prev].file), 1, true);
-          drawFrame(pics.get(samples[next].file), t, false);
+          let best = 0;
+          let bestDist = 1e9;
+          for (let i = 0; i < samples.length; i++) {
+            let d = Math.abs(samples[i].angle - angle);
+            if (d > Math.PI) d = TWO_PI - d;
+            if (d < bestDist) { bestDist = d; best = i; }
+          }
+          drawFrame(pics.get(samples[best].file), 1, true);
         }
       }
       ctx.globalAlpha = 1;
@@ -618,7 +620,7 @@
     async function boot() {
       canvas = document.getElementById("eyes");
       ctx = canvas.getContext("2d", { alpha: false, desynchronized: true });
-      gaze = await (await fetch("gaze.json?v=20260918mix", { cache: "no-cache" })).json();
+      gaze = await (await fetch("gaze.json?v=20260918mix2", { cache: "no-cache" })).json();
       if (!Array.isArray(gaze.origin) || gaze.origin.length !== 2) {
         gaze.origin = [0.502, 0.205];
       }
@@ -628,7 +630,7 @@
       ctx.imageSmoothingQuality = "high";
 
       try {
-        scrollMeta = await (await fetch("scroll.json?v=20260918mix", { cache: "no-cache" })).json();
+        scrollMeta = await (await fetch("scroll.json?v=20260918mix2", { cache: "no-cache" })).json();
       } catch (err) {
         console.warn("scroll.json missing", err);
         scrollMeta = null;
@@ -711,7 +713,7 @@
               el.decoding = "async";
               el.onload = () => resolve(el);
               el.onerror = reject;
-              el.src = "frames-scroll/" + file + "?v=20260918mix";
+              el.src = "frames-scroll/" + file + "?v=20260918mix2";
             });
             scrollPics.set(file, img);
           } catch (err) {
