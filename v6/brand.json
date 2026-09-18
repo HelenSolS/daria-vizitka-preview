@@ -1,0 +1,56 @@
+{
+  "name": "Daria.",
+  "greet": "Hi, I'm Dasha",
+  "title": "Daria Soldatova — UI/UX designer",
+  "telegram": "#",
+  "whatsapp": "#",
+  "instagram": "#",
+  "menu": [
+    "Work",
+    "About",
+    "Talk"
+  ],
+  "manifesto": "UI/UX designer · SpankPls since 2022<br>HCI MSc · Bauhaus Weimar<br>Using AI in UX research · PPS ITMO",
+  "cta": "Behance · plashik",
+  "cta_url": "https://www.behance.net/plashik",
+  "editorial": "daria.soldatova@uni-weimar.de",
+  "specs": [
+    [
+      "Now",
+      "SpankPls · UI/UX"
+    ],
+    [
+      "Study",
+      "Bauhaus HCI MSc"
+    ],
+    [
+      "BA",
+      "ITMO UI/UX"
+    ],
+    [
+      "Talk",
+      "PPS ITMO 2025"
+    ]
+  ],
+  "shopTitle": "Resume",
+  "shopNote": "Career, education, internships",
+  "cards": [
+    {
+      "title": "SpankPls",
+      "note": "UI/UX · 2022–current"
+    },
+    {
+      "title": "Bauhaus Weimar",
+      "note": "HCI MSc · 2025–2027"
+    },
+    {
+      "title": "PPS ITMO",
+      "note": "AI in UX research · 2025"
+    },
+    {
+      "title": "VK / JetBrains",
+      "note": "iOS 2021 · Android 2019"
+    }
+  ],
+  "hint": "Scroll · move cursor"
+}
