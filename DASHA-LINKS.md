@@ -9,6 +9,9 @@
 | v2 sea | https://daria-vizitka-preview.vercel.app/v2/ | OK |
 | v3 illustrated | https://daria-vizitka-preview.vercel.app/v3/ | OK |
 | v4 white studio lookbook | https://daria-vizitka-preview.vercel.app/v4/ | canvas frames, sit → stand → turn → heart |
+| v5 gaze follow | https://daria-vizitka-preview.vercel.app/v5/ | H3 orbit + lerp |
+| v6 Dasha laptop | https://daria-vizitka-preview.vercel.app/v6/ | head turn → type → heart |
+| v7 grab camera | https://daria-vizitka-preview.vercel.app/v7/ | reach + push in motion, then spin |
 
 Dashboard: https://vercel.com/helensol-1s-projects-f372cf4a/daria-vizitka-preview
 
@@ -17,6 +20,7 @@ Dashboard: https://vercel.com/helensol-1s-projects-f372cf4a/daria-vizitka-previe
 https://helensols.github.io/daria-vizitka-preview/
 
 - v4: https://helensols.github.io/daria-vizitka-preview/v4/
+- v7: https://helensols.github.io/daria-vizitka-preview/v7/
 
 ## GitHub repository
 
@@ -28,5 +32,3 @@ https://github.com/HelenSolS/daria-vizitka-preview/settings/access
 ## Copy-paste message for Dasha
 
 See `SEND-TO-DASHA.txt` or `EMAIL-TO-DASHA.md`
-
-| v5 gaze follow | https://daria-vizitka-preview.vercel.app/v5/ | H3 orbit + lerp |

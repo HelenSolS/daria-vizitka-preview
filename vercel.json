@@ -8,6 +8,7 @@
     { "source": "/v3", "destination": "/v3/" },
     { "source": "/v4", "destination": "/v4/" },
     { "source": "/v5", "destination": "/v5/" },
-    { "source": "/v6", "destination": "/v6/" }
+    { "source": "/v6", "destination": "/v6/" },
+    { "source": "/v7", "destination": "/v7/" }
   ]
 }

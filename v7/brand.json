@@ -1,0 +1,51 @@
+{
+  "name": "Daria.",
+  "greet": "Hi, I'm Dasha",
+  "title": "Daria Soldatova — UI/UX designer",
+  "telegram": "#",
+  "whatsapp": "#",
+  "instagram": "#",
+  "menu": [
+    "Career",
+    "Education",
+    "Behance"
+  ],
+  "manifesto": "White cyclorama.<br>She reaches for the lens.<br>Grabs the camera in motion.<br>Turns, walks, spins.",
+  "cta": "See work",
+  "editorial": "UI/UX designer at SpankPls since 2022. HCI at Bauhaus Weimar. Talk: “Using AI in UX research” at PPS ITMO.",
+  "specs": [
+    [
+      "Role",
+      "UI/UX designer"
+    ],
+    [
+      "Now",
+      "SpankPls"
+    ],
+    [
+      "Study",
+      "Bauhaus HCI"
+    ],
+    [
+      "Base",
+      "ITMO UI/UX"
+    ]
+  ],
+  "shopTitle": "Work",
+  "shopNote": "SpankPls, massage-school diploma, Christmas toy museum — Behance plashik.",
+  "cards": [
+    {
+      "title": "SpankPls",
+      "note": "App · 2023"
+    },
+    {
+      "title": "Massage school",
+      "note": "Diploma · 2025"
+    },
+    {
+      "title": "Toy museum",
+      "note": "Site · 2024"
+    }
+  ],
+  "hint": "Scroll down"
+}

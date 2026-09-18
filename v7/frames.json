@@ -1,0 +1,14 @@
+{
+  "count": 175,
+  "width": 1920,
+  "height": 1080,
+  "prefix": "frame-",
+  "pad": 4,
+  "ext": "jpg",
+  "source": "motion.mp4",
+  "probe": {
+    "nb_frames": "175",
+    "avg_frame_rate": "24/1",
+    "duration": "7.291667"
+  }
+}
