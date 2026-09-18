@@ -1,4 +1,4 @@
-# Dasha — all links (verified 2026-09-17)
+# Dasha — all links (verified 2026-09-18)
 
 ## Live site (Vercel) — main
 
