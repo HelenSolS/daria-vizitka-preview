@@ -1,1 +1,273 @@
-{"width": 1920, "height": 1080, "origin": [0.5, 0.22], "flipX": false, "mode": "orbit", "phaseDegrees": 0.0, "reverse": false, "orbit": {"start": 1, "end": 175, "count": 175}, "neutral": {"frame": 0, "file": "rest.jpg"}, "rest": {"frame": 0, "file": "rest.jpg"}, "samples": [{"angle": 0.0, "frame": 1, "file": "frame-0001.jpg"}, {"angle": 0.1308996938995747, "frame": 5, "file": "frame-0005.jpg"}, {"angle": 0.2617993877991494, "frame": 8, "file": "frame-0008.jpg"}, {"angle": 0.39269908169872414, "frame": 12, "file": "frame-0012.jpg"}, {"angle": 0.5235987755982988, "frame": 15, "file": "frame-0015.jpg"}, {"angle": 0.6544984694978736, "frame": 19, "file": "frame-0019.jpg"}, {"angle": 0.7853981633974483, "frame": 23, "file": "frame-0023.jpg"}, {"angle": 0.916297857297023, "frame": 26, "file": "frame-0026.jpg"}, {"angle": 1.0471975511965976, "frame": 30, "file": "frame-0030.jpg"}, {"angle": 1.1780972450961724, "frame": 34, "file": "frame-0034.jpg"}, {"angle": 1.3089969389957472, "frame": 37, "file": "frame-0037.jpg"}, {"angle": 1.4398966328953218, "frame": 41, "file": "frame-0041.jpg"}, {"angle": 1.5707963267948966, "frame": 45, "file": "frame-0045.jpg"}, {"angle": 1.7016960206944713, "frame": 48, "file": "frame-0048.jpg"}, {"angle": 1.832595714594046, "frame": 52, "file": "frame-0052.jpg"}, {"angle": 1.9634954084936205, "frame": 55, "file": "frame-0055.jpg"}, {"angle": 2.0943951023931953, "frame": 59, "file": "frame-0059.jpg"}, {"angle": 2.2252947962927703, "frame": 63, "file": "frame-0063.jpg"}, {"angle": 2.356194490192345, "frame": 66, "file": "frame-0066.jpg"}, {"angle": 2.4870941840919194, "frame": 70, "file": "frame-0070.jpg"}, {"angle": 2.6179938779914944, "frame": 73, "file": "frame-0073.jpg"}, {"angle": 2.748893571891069, "frame": 77, "file": "frame-0077.jpg"}, {"angle": 2.8797932657906435, "frame": 81, "file": "frame-0081.jpg"}, {"angle": 3.010692959690218, "frame": 84, "file": "frame-0084.jpg"}, {"angle": 3.141592653589793, "frame": 88, "file": "frame-0088.jpg"}, {"angle": 3.272492347489368, "frame": 92, "file": "frame-0092.jpg"}, {"angle": 3.4033920413889427, "frame": 95, "file": "frame-0095.jpg"}, {"angle": 3.5342917352885173, "frame": 99, "file": "frame-0099.jpg"}, {"angle": 3.665191429188092, "frame": 103, "file": "frame-0103.jpg"}, {"angle": 3.796091123087667, "frame": 106, "file": "frame-0106.jpg"}, {"angle": 3.926990816987241, "frame": 110, "file": "frame-0110.jpg"}, {"angle": 4.057890510886816, "frame": 113, "file": "frame-0113.jpg"}, {"angle": 4.1887902047863905, "frame": 117, "file": "frame-0117.jpg"}, {"angle": 4.319689898685966, "frame": 121, "file": "frame-0121.jpg"}, {"angle": 4.4505895925855405, "frame": 124, "file": "frame-0124.jpg"}, {"angle": 4.581489286485115, "frame": 128, "file": "frame-0128.jpg"}, {"angle": 4.71238898038469, "frame": 131, "file": "frame-0131.jpg"}, {"angle": 4.843288674284264, "frame": 135, "file": "frame-0135.jpg"}, {"angle": 4.974188368183839, "frame": 139, "file": "frame-0139.jpg"}, {"angle": 5.105088062083413, "frame": 142, "file": "frame-0142.jpg"}, {"angle": 5.235987755982989, "frame": 146, "file": "frame-0146.jpg"}, {"angle": 5.3668874498825625, "frame": 150, "file": "frame-0150.jpg"}, {"angle": 5.497787143782138, "frame": 153, "file": "frame-0153.jpg"}, {"angle": 5.6286868376817125, "frame": 157, "file": "frame-0157.jpg"}, {"angle": 5.759586531581287, "frame": 161, "file": "frame-0161.jpg"}, {"angle": 5.8904862254808625, "frame": 164, "file": "frame-0164.jpg"}, {"angle": 6.021385919380436, "frame": 168, "file": "frame-0168.jpg"}, {"angle": 6.152285613280012, "frame": 171, "file": "frame-0171.jpg"}]}
+{
+  "width": 1920,
+  "height": 1080,
+  "origin": [
+    0.502,
+    0.205
+  ],
+  "flipX": false,
+  "mode": "orbit",
+  "phaseDegrees": 0.0,
+  "reverse": false,
+  "orbit": {
+    "start": 1,
+    "end": 48,
+    "count": 48
+  },
+  "neutral": {
+    "frame": 0,
+    "file": "rest.jpg"
+  },
+  "rest": {
+    "frame": 0,
+    "file": "rest.jpg"
+  },
+  "samples": [
+    {
+      "angle": 0.0,
+      "frame": 1,
+      "file": "frame-0001.jpg"
+    },
+    {
+      "angle": 0.1308996938995747,
+      "frame": 2,
+      "file": "frame-0002.jpg"
+    },
+    {
+      "angle": 0.2617993877991494,
+      "frame": 3,
+      "file": "frame-0003.jpg"
+    },
+    {
+      "angle": 0.39269908169872414,
+      "frame": 4,
+      "file": "frame-0004.jpg"
+    },
+    {
+      "angle": 0.5235987755982988,
+      "frame": 5,
+      "file": "frame-0005.jpg"
+    },
+    {
+      "angle": 0.6544984694978736,
+      "frame": 6,
+      "file": "frame-0006.jpg"
+    },
+    {
+      "angle": 0.7853981633974483,
+      "frame": 7,
+      "file": "frame-0007.jpg"
+    },
+    {
+      "angle": 0.916297857297023,
+      "frame": 8,
+      "file": "frame-0008.jpg"
+    },
+    {
+      "angle": 1.0471975511965976,
+      "frame": 9,
+      "file": "frame-0009.jpg"
+    },
+    {
+      "angle": 1.1780972450961724,
+      "frame": 10,
+      "file": "frame-0010.jpg"
+    },
+    {
+      "angle": 1.3089969389957472,
+      "frame": 11,
+      "file": "frame-0011.jpg"
+    },
+    {
+      "angle": 1.4398966328953218,
+      "frame": 12,
+      "file": "frame-0012.jpg"
+    },
+    {
+      "angle": 1.5707963267948966,
+      "frame": 13,
+      "file": "frame-0013.jpg"
+    },
+    {
+      "angle": 1.7016960206944713,
+      "frame": 14,
+      "file": "frame-0014.jpg"
+    },
+    {
+      "angle": 1.832595714594046,
+      "frame": 15,
+      "file": "frame-0015.jpg"
+    },
+    {
+      "angle": 1.9634954084936205,
+      "frame": 16,
+      "file": "frame-0016.jpg"
+    },
+    {
+      "angle": 2.0943951023931953,
+      "frame": 17,
+      "file": "frame-0017.jpg"
+    },
+    {
+      "angle": 2.2252947962927703,
+      "frame": 18,
+      "file": "frame-0018.jpg"
+    },
+    {
+      "angle": 2.356194490192345,
+      "frame": 19,
+      "file": "frame-0019.jpg"
+    },
+    {
+      "angle": 2.4870941840919194,
+      "frame": 20,
+      "file": "frame-0020.jpg"
+    },
+    {
+      "angle": 2.6179938779914944,
+      "frame": 21,
+      "file": "frame-0021.jpg"
+    },
+    {
+      "angle": 2.748893571891069,
+      "frame": 22,
+      "file": "frame-0022.jpg"
+    },
+    {
+      "angle": 2.8797932657906435,
+      "frame": 23,
+      "file": "frame-0023.jpg"
+    },
+    {
+      "angle": 3.010692959690218,
+      "frame": 24,
+      "file": "frame-0024.jpg"
+    },
+    {
+      "angle": 3.141592653589793,
+      "frame": 25,
+      "file": "frame-0025.jpg"
+    },
+    {
+      "angle": 3.272492347489368,
+      "frame": 26,
+      "file": "frame-0026.jpg"
+    },
+    {
+      "angle": 3.4033920413889427,
+      "frame": 27,
+      "file": "frame-0027.jpg"
+    },
+    {
+      "angle": 3.5342917352885173,
+      "frame": 28,
+      "file": "frame-0028.jpg"
+    },
+    {
+      "angle": 3.665191429188092,
+      "frame": 29,
+      "file": "frame-0029.jpg"
+    },
+    {
+      "angle": 3.796091123087667,
+      "frame": 30,
+      "file": "frame-0030.jpg"
+    },
+    {
+      "angle": 3.926990816987241,
+      "frame": 31,
+      "file": "frame-0031.jpg"
+    },
+    {
+      "angle": 4.057890510886816,
+      "frame": 32,
+      "file": "frame-0032.jpg"
+    },
+    {
+      "angle": 4.1887902047863905,
+      "frame": 33,
+      "file": "frame-0033.jpg"
+    },
+    {
+      "angle": 4.319689898685966,
+      "frame": 34,
+      "file": "frame-0034.jpg"
+    },
+    {
+      "angle": 4.4505895925855405,
+      "frame": 35,
+      "file": "frame-0035.jpg"
+    },
+    {
+      "angle": 4.581489286485115,
+      "frame": 36,
+      "file": "frame-0036.jpg"
+    },
+    {
+      "angle": 4.71238898038469,
+      "frame": 37,
+      "file": "frame-0037.jpg"
+    },
+    {
+      "angle": 4.843288674284264,
+      "frame": 38,
+      "file": "frame-0038.jpg"
+    },
+    {
+      "angle": 4.974188368183839,
+      "frame": 39,
+      "file": "frame-0039.jpg"
+    },
+    {
+      "angle": 5.105088062083413,
+      "frame": 40,
+      "file": "frame-0040.jpg"
+    },
+    {
+      "angle": 5.235987755982989,
+      "frame": 41,
+      "file": "frame-0041.jpg"
+    },
+    {
+      "angle": 5.3668874498825625,
+      "frame": 42,
+      "file": "frame-0042.jpg"
+    },
+    {
+      "angle": 5.497787143782138,
+      "frame": 43,
+      "file": "frame-0043.jpg"
+    },
+    {
+      "angle": 5.6286868376817125,
+      "frame": 44,
+      "file": "frame-0044.jpg"
+    },
+    {
+      "angle": 5.759586531581287,
+      "frame": 45,
+      "file": "frame-0045.jpg"
+    },
+    {
+      "angle": 5.8904862254808625,
+      "frame": 46,
+      "file": "frame-0046.jpg"
+    },
+    {
+      "angle": 6.021385919380436,
+      "frame": 47,
+      "file": "frame-0047.jpg"
+    },
+    {
+      "angle": 6.152285613280012,
+      "frame": 48,
+      "file": "frame-0048.jpg"
+    }
+  ],
+  "quality": {
+    "width": 1920,
+    "qv": 2,
+    "still": "character.png",
+    "video": "orbit.mp4"
+  }
+}
